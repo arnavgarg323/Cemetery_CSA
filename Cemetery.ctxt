@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Cemetery
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=f
+comment2.target=int\ countEntries(java.io.File)
+comment2.text=\ Counts\ and\ returns\ the\ number\ of\ entries\ in\ File\ f.\n\ Uses\ a\ try-catch\ block.\ \ \ \n\ @param\ f\ --\ the\ file\ object\n
+comment3.params=f\ num
+comment3.target=Person[]\ readIntoArray(java.io.File,\ int)
+comment3.text=\ Reads\ the\ data.\n\ Fills\ the\ array\ with\ Person\ objects.\n\ Uses\ a\ try-catch\ block.\ \ \ \n\ @param\ f\ --\ the\ file\ object\ \n\ \ \ \ \ \ \ \ num\ --\ the\ number\ of\ lines\ in\ the\ File\ f\ \ \n
+comment4.params=entry
+comment4.target=Person\ makePerson(java.lang.String)
+comment4.text=\ A\ helper\ method\ that\ instantiates\ one\ Person\ object.\n\ @param\ entry\ --\ one\ line\ of\ the\ input\ file.\n
+comment5.params=arr
+comment5.target=int\ locateMinAgePerson(Person[])
+comment5.text=\ Finds\ and\ returns\ the\ location\ (the\ index)\ of\ the\ Person\n\ who\ is\ the\ youngest.\n\ @param\ arr\ --\ an\ array\ of\ Person\ objects.\n
+comment6.params=arr
+comment6.target=int\ locateMaxAgePerson(Person[])
+comment6.text=\ Finds\ and\ returns\ the\ location\ (the\ index)\ of\ the\ Person\n\ \ \ \ \ \ who\ is\ the\ oldest.\n\ \ \ \ \ \ @param\ arr\ --\ an\ array\ of\ Person\ objects.\n
+comment7.params=arr
+comment7.target=double\ mode(Person[])
+numComments=8
